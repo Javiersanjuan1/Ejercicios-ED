@@ -3,10 +3,8 @@ import java.util.Random;
 public class ContadorGenesADN {
 
     public static void main(String[] args) {
-        // Generar cadena de ADN aleatoria
         String cadenaADN = generarCadenaADNAleatoria(1000); // Longitud de la cadena de ADN: 1000
 
-        // Contar el número de genes
         int numeroGenes = contarGenes(cadenaADN);
 
         System.out.println("La cadena de ADN tiene " + numeroGenes + " genes.");
